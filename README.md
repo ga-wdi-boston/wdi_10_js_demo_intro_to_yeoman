@@ -72,7 +72,9 @@ To run your tests: `grunt test`
 
 To serve a local copy of your site: `grunt serve`
 
-And to create a *distribution* of your site for deployment run: `grunt build`. This command will minifiy, concatinate and overall optimize your site and put a special copy of it into your `./dist` directory. You can then deploy the contents of that directory to Github Pages by `git subtree push --prefix dist origin gh-pages`
+And to create a *distribution* of your site for deployment run: `grunt build`. This command will minifiy, concatinate and overall optimize your site and put a special copy of it into your `./dist` directory.
+
+You'll have to remote the `dist` line from your `.gitignore`. Do a git add/commit. You can then deploy the contents of that directory to Github Pages by `git subtree push --prefix dist origin gh-pages`
 
 
 ## Exercise 1
